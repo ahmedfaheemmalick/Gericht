@@ -1,4 +1,7 @@
-import images from './images';
+import award01 from '../assets/award01.png';
+import award02 from '../assets/award02.png';
+import award03 from '../assets/award03.png';
+import award05 from '../assets/award05.png';
 
 export const wines = [
   {
@@ -58,22 +61,22 @@ export const cocktails = [
 
 export const awards = [
   {
-    imgUrl: images.award02,
+    imgUrl: award02,
     title: 'Bib Gourmond',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award01,
+    imgUrl: award01,
     title: 'Rising Star',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award05,
+    imgUrl: award05,
     title: 'AA Hospitality',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award03,
+    imgUrl: award03,
     title: 'Outstanding Chef',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },

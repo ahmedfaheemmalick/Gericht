@@ -3,7 +3,7 @@ import React from 'react'
 import SubHeading from '../../components/SubHeading/SubHeading'
 import MenuItem from '../../components/MenuItem/MenuItem'
 import { cocktails, wines } from '../../constants/data'
-import { menu } from '../../constants/images'
+import menu from '../../assets/menu.png'
 
 import './SpecialMenu.css'
 

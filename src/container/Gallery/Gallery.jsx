@@ -6,7 +6,16 @@ import {
 } from 'react-icons/bs'
 
 import SubHeading from '../../components/SubHeading/SubHeading'
-import { images } from '../../constants'
+// import {
+//   gallery01,
+//   gallery02,
+//   gallery03,
+//   gallery04,
+// } from '../assets'
+import gallery01 from '../../assets/gallery01.png'
+import gallery02 from '../../assets/gallery02.png'
+import gallery03 from '../../assets/gallery03.png'
+import gallery04 from '../../assets/gallery04.png'
 import './Gallery.css'
 
 const Gallery = () => {
@@ -39,12 +48,7 @@ const Gallery = () => {
       </div>
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>
-          {[
-            images.gallery01,
-            images.gallery02,
-            images.gallery03,
-            images.gallery04,
-          ].map((image, index) => (
+          {[gallery01, gallery02, gallery03, gallery04].map((image, index) => (
             <div
               className='app__gallery-images_card flex__center'
               key={`gallery_image-${index + 1}`}>

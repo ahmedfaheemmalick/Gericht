@@ -3,7 +3,8 @@ import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi'
 
 import FooterOverlay from '../../components/Footer/FooterOverlay'
 import Newsletter from '../../components/Footer/Newsletter'
-import { images } from '../../constants'
+import gericht from '../../assets/gericht.png'
+import spoon from '../../assets/spoon.png'
 import './Footer.css'
 
 const Footer = () => (
@@ -20,13 +21,13 @@ const Footer = () => (
       </div>
 
       <div className='app__footer-links_logo'>
-        <img src={images.gericht} alt='footer_logo' />
+        <img src={gericht} alt='footer_logo' />
         <p className='p__opensans'>
           &quot;The best way to find yourself is to lose yourself in the service
           of others.&quot;
         </p>
         <img
-          src={images.spoon}
+          src={spoon}
           alt='spoon'
           className='spoon__img'
           style={{ marginTop: 15 }}
